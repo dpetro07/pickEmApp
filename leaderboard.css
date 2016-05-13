@@ -1,0 +1,12 @@
+
+/*WEEK(1-17) TEXT and HIGHLIGHTER*/
+.tabs .tab a {
+  color: black;
+}
+
+.tabs .tab a:hover {
+    color: orange;
+}
+.tabs .indicator { 
+  background-color: black;
+}
