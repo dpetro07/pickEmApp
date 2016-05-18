@@ -1,3 +1,8 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
+
 .teamsHeight {
   height: 100px;
 }
@@ -10,17 +15,37 @@
 
 .vs {
   text-align: center;
+  margin-top: 40%;
 }
 
 
+.marginBttm {
+  margin-bottom: 0px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
 
 
+.record {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 
+.collapsible {
+  margin-bottom: 10px;
+}
 
-
-
-
+.collapsible-header {
+  margin-bottom: 0px;
+}
 
 /*DELETE LATER*/
 .headB4Teams {

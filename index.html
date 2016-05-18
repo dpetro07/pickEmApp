@@ -4,6 +4,9 @@
   <title></title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+
   <link rel="stylesheet" type="text/css" href="navbar.css">
   <link rel="stylesheet" type="text/css" href="body.css">
   <link rel="stylesheet" type="text/css" href="leaderboard.css">
@@ -19,10 +22,10 @@
                 <li><a href="contact.html">User</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo"><!--you can always add another item to the bar-->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="leaderboard.html">Leaderboard</a></li>
-                <li><a href="contact.html">NFL</a></li>
-                <li><a href="contact.html">NCAA</a></li>
+                <li><a href="index.html" class="side-nav-text">Home</a></li>
+                <li class="side-nav-text"><a href="leaderboard.html">Leaderboard</a></li>
+                <li class="side-nav-text"><a href="contact.html">NFL</a></li>
+                <li class="side-nav-text"><a href="contact.html">NCAA</a></li>
             </ul>
         </div>
     </nav>
@@ -46,16 +49,18 @@
 
 
 <!--TEAM VS TEAM SECTION-->
-    <div class="row">
-      <div class="col s4 offset-s1 teamsHeight">
-        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_East/jets.jpg"></a>
+    <div class="row marginBttm">
+      <div class="col s4">
+        <a href=""><img class="teamLogo" src="images/NFL/AFC_East/jets.jpg"></a>
+        <p class="record center">(10-6)</p>
       </div>
-      <div class="col s2">
-        <p class="vs">VS</p>
-        <p class="vs">-3.5</p>
+      <div class="col s4 center versus">
+        <h4 class="vs">VS</h4>
+        <h5 class="center">+3.5</h5>
       </div>
-      <div class="col s4 offset-s1 teamsHeight">
-        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_East/dolphins.jpg"></a>
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_East/patriots.jpg"></a>
+        <p class="record center">(9-7)</p>
       </div>
     </div>
 
@@ -65,7 +70,7 @@
       <div class="collapsible-header center row">
         <div class="col s4">NY Jets</div>
         <div class="col s4">Team Stats</div>
-        <div class="col s4">Miami Dolphins</div>
+        <div class="col s4">Miami</div>
       </div>
       <div class="collapsible-body row">
           <div class="col s4 center">
@@ -96,26 +101,279 @@
     </li>
   </ul>
 
-    <div class="row">
-      <div class="col s5">
-        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_East/bills.jpg"></a>
+
+
+<!--2nd EXAMPLE OF TEAMS-->
+    <div class="row marginBttm">
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_North/steelers.jpg"></a>
+        <p class="record center">(10-6)</p>
       </div>
-      <div class="col s2"><h1 class="vs">VS</h1></div>
-      <div class="col s5">
-        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_East/patriots.jpg"></a>
+      <div class="col s4 center versus">
+        <h4 class="vs">VS</h4>
+        <h5 class="center">+3.5</h5>
+      </div>
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_West/raiders.jpg"></a>
+        <p class="record center">(9-7)</p>
       </div>
     </div>
 
 
   <ul class="collapsible" data-collapsible="accordion">
     <li>
-      <div class="collapsible-header"><i class="material-icons"></i>View Statistics</div>
-      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+      <div class="collapsible-header center row">
+        <div class="col s4">NY Jets</div>
+        <div class="col s4">Team Stats</div>
+        <div class="col s4">Miami</div>
+      </div>
+      <div class="collapsible-body row">
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>Ttl Off Yds</li>
+                <li>Ttl Def Yds</li>
+                <li>Rushing Yds</li>
+                <li>Passing Yds</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+      </div>
     </li>
   </ul>
+<!--END-->
+
+<!--2nd EXAMPLE OF TEAMS-->
+    <div class="row marginBttm">
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_South/colts.jpg"></a>
+        <p class="record center">(10-6)</p>
+      </div>
+      <div class="col s4 center versus">
+        <h4 class="vs">VS</h4>
+        <h5 class="center">+3.5</h5>
+      </div>
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/NFC_North/packers.jpg"></a>
+        <p class="record center">(9-7)</p>
+      </div>
+    </div>
 
 
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header center row">
+        <div class="col s4">NY Jets</div>
+        <div class="col s4">Team Stats</div>
+        <div class="col s4">Miami</div>
+      </div>
+      <div class="collapsible-body row">
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>Ttl Off Yds</li>
+                <li>Ttl Def Yds</li>
+                <li>Rushing Yds</li>
+                <li>Passing Yds</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+      </div>
+    </li>
+  </ul>
+<!--END-->
 
+
+  <!--2nd EXAMPLE OF TEAMS-->
+    <div class="row marginBttm">
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/NFC_East/cowboys.jpg"></a>
+        <p class="record center">(10-6)</p>
+      </div>
+      <div class="col s4 center versus">
+        <h4 class="vs">VS</h4>
+        <h5 class="center">+3.5</h5>
+      </div>
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/NFC_West/rams.jpg"></a>
+        <p class="record center">(9-7)</p>
+      </div>
+    </div>
+
+
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header center row">
+        <div class="col s4">NY Jets</div>
+        <div class="col s4">Team Stats</div>
+        <div class="col s4">Miami</div>
+      </div>
+      <div class="collapsible-body row">
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>Ttl Off Yds</li>
+                <li>Ttl Def Yds</li>
+                <li>Rushing Yds</li>
+                <li>Passing Yds</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+      </div>
+    </li>
+  </ul>
+<!--END-->
+
+
+  <!--2nd EXAMPLE OF TEAMS-->
+    <div class="row marginBttm">
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_East/bills.jpg"></a>
+        <p class="record center">(10-6)</p>
+      </div>
+      <div class="col s4 center versus">
+        <h4 class="vs">VS</h4>
+        <h5 class="center">+3.5</h5>
+      </div>
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_West/raiders.jpg"></a>
+        <p class="record center">(9-7)</p>
+      </div>
+    </div>
+
+
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header center row">
+        <div class="col s4">NY Jets</div>
+        <div class="col s4">Team Stats</div>
+        <div class="col s4">Miami</div>
+      </div>
+      <div class="collapsible-body row">
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>Ttl Off Yds</li>
+                <li>Ttl Def Yds</li>
+                <li>Rushing Yds</li>
+                <li>Passing Yds</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+      </div>
+    </li>
+  </ul>
+<!--END-->
+
+
+  <!--2nd EXAMPLE OF TEAMS-->
+    <div class="row marginBttm">
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_East/bills.jpg"></a>
+        <p class="record center">(10-6)</p>
+      </div>
+      <div class="col s4 center versus">
+        <h4 class="vs">VS</h4>
+        <h5 class="center">+3.5</h5>
+      </div>
+      <div class="col s4">
+        <a href="google.com"><img class="teamLogo" src="images/NFL/AFC_West/raiders.jpg"></a>
+        <p class="record center">(9-7)</p>
+      </div>
+    </div>
+
+
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header center row">
+        <div class="col s4">NY Jets</div>
+        <div class="col s4">Team Stats</div>
+        <div class="col s4">Miami</div>
+      </div>
+      <div class="collapsible-body row">
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>Ttl Off Yds</li>
+                <li>Ttl Def Yds</li>
+                <li>Rushing Yds</li>
+                <li>Passing Yds</li>
+              </ul>
+          </div>
+          <div class="col s4 center">
+              <ul>
+                <li>435</li>
+                <li>350</li>
+                <li>200</li>
+                <li>235</li>
+              </ul>
+          </div>
+      </div>
+    </li>
+  </ul>
 
 </body>
 
@@ -123,5 +381,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
   <script type="text/javascript" src="server.js"></script>
   <script type="text/javascript" src="navbar.js"></script>
+    <script type="text/javascript" src="body.js"></script>
 </body>
 </html>
