@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="body.css">
+  <link rel="stylesheet" type="text/css" href="leaderboard.css">
+</head>
+<!-- NAVBAR -->
+  <div class="navbar-fixed"><!--the bar at the top of the screen "fixed" means it follows down the screen-->
+    <nav class="navbar"><!--the color of the nav bar-->
+        <div class="nav-wrapper container">
+            <a href="" class="brand-logo">NFL</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul class="right hide-on-med-and-down"><!--you can always add another item to the bar--><!--class="right hide-on-med-and-down"-->
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="contact.html">User</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo"><!--you can always add another item to the bar-->
+                <li class="side-nav-text"><a href="home.html">Home</a></li>
+                <li class="side-nav-text"><a href="leaderboard.html">Leaderboard</a></li>
+                <li class="side-nav-text"><a href="index.html">NFL</a></li>
+                <li class="side-nav-text"><a href="index.html">NCAA</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--NAVBAR END-->
+
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="fa fa-mobile" aria-hidden="true"></i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email" data-error="wrong" data-success="valid">Email</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type="text/javascript" src="server.js"></script>
+  <script type="text/javascript" src="navbar.js"></script>
+    <script type="text/javascript" src="body.js"></script>
+</body>
+</html>

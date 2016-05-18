@@ -15,7 +15,7 @@ body {
 
 .vs {
   text-align: center;
-  margin-top: 40%;
+  margin-top: 15%;
 }
 
 
@@ -47,12 +47,17 @@ body {
   margin-bottom: 0px;
 }
 
+
+.btn {
+  background-color: #2F3440;
+}
+
 /*DELETE LATER*/
 .headB4Teams {
-  border-width: 3px;
-  border-color: purple;
-  border-style: solid;
+
 }
+
+
 
 
 
